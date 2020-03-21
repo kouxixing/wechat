@@ -1,0 +1,17 @@
+<!--pages/home/home.wxml-->
+<view class="content">
+  <scroll-view class="scroll-wrapper">
+    <view class="content-img">
+      <image src="{{img}}" class="slide-image"></image>
+    </view>
+    <view class="content-center">
+      <text>你好,{{nickname}}\n</text>
+      <text>{{description}}</text>
+      <cpt inner-text="Some text"></cpt>
+      <view class="content-swipper"></view>
+      <view class="content-preferential"></view>
+      <view class="content-list"></view>
+    </view>
+
+  </scroll-view>
+</view>

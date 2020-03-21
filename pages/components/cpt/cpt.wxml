@@ -1,0 +1,6 @@
+<!--pages/components/cpt/cpt.wxml-->
+<view class="inner">
+  {{innerText}}
+  <button bindtap='customMethod'>点击</button>
+  <slot></slot>
+</view>

@@ -1,0 +1,6 @@
+/* pages/board/board.wxss */
+.moveArea{
+  width: 200px;
+  height: 200px;
+  background: #11caff;
+}
