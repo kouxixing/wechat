@@ -1,40 +1,47 @@
 {
   "pages": [
-    "pages/search/search",
     "pages/home/home",
-    "pages/board/board"
+    "pages/mine/mine",
+    "pages/order/order",
+    "pages/department/department"
   ],
   "window": {
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "想喝了吗",
+    "navigationBarTitleText": "喜茶go-demo",
     "backgroundColor": "#f8f9fb",
     "backgroundTextStyle": "dark",
     "enablePullDownRefresh": false
   },
   "tabBar": {
-    "color": "#000",
-    "selectedColor": "#11caff",
+    "color": "#dbdbdb",
+    "selectedColor": "#707070",
     "borderStyle": "white",
     "backgroundColor": "#fff",
     "list": [
       {
-        "text": "榜单",
-        "pagePath": "pages/board/board",
-        "iconPath": "images/board.png",
-        "selectedIconPath": "images/board-actived.png"
+        "text": "点单",
+        "pagePath": "pages/home/home",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home_active.png"
       },
       {
-        "text": "搜索",
-        "pagePath": "pages/search/search",
-        "iconPath": "images/search.png",
-        "selectedIconPath": "images/search-actived.png"
+        "text": "喜茶百货",
+        "pagePath": "pages/department/department",
+        "iconPath": "images/department.png",
+        "selectedIconPath": "images/department_active.png"
+      },
+      {
+        "text": "订单",
+        "pagePath": "pages/order/order",
+        "iconPath": "images/order.png",
+        "selectedIconPath": "images/order_active.png"
       },
       {
         "text": "我的",
-        "pagePath": "pages/home/home",
-        "iconPath": "images/home.png",
-        "selectedIconPath": "images/home-actived.png"
+        "pagePath": "pages/mine/mine",
+        "iconPath": "images/mine.png",
+        "selectedIconPath": "images/mine_active.png"
       }
     ]
   },

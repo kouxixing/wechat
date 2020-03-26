@@ -1,5 +1,0 @@
-/* pages/search/search.wxss */
-.swiper{
-  background: #90afb8;
-  height: 300px;
-}

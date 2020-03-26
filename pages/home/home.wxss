@@ -1,15 +1,1 @@
 /* pages/home/home.wxss */
-.content {
-  width: 100%;
-  height: 800px;
-}
-.scroll-wrapper{
-  height: 100%;
-  overflow: auto;
-}
-.slide-image{
-  width: 100%;
-}
-.content-center{
-  padding: 10px;
-}

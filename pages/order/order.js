@@ -1,18 +1,28 @@
-// pages/home/home.js
+// pages/order/order.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    currentTabIndex: 0,
+    img: "../../images/logo_order.jpeg",
+    itemImage: "http://n.sinaimg.cn/sinacn17/300/w1080h1620/20181129/29d0-hpinrya8068018.jpg"
+  },
+  onTabsItemTap: function (event) {
+    let index = event.currentTarget.dataset.index;
+    this.setData({
+      currentTabIndex: index
+    })
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    this.setData({
+      currentTabIndex: 0
+    })
   },
 
   /**

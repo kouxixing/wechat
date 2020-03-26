@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "HEYTEA",
+  "navigationBarBackgroundColor": "#fff0d3",
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "cpt": "../components/cpt/cpt"
+  }
+}

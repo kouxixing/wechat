@@ -1,0 +1,42 @@
+<!--pages/order/order.wxml-->
+<view id='tabs'>
+  <view class='tabs-box'>
+    <block wx:for="{{['当前订单','历史订单']}}" wx:key="index">
+      <view class="tabs-item {{currentTabIndex == index ? 'selected' : '' }}" bindtap='onTabsItemTap' data-index='{{index}}'>
+        {{item}}      
+      </view>
+    </block>
+  </view>
+  <view class='ordert-detail'>
+      <view hidden='{{currentTabIndex != 0}}' class="cur_content">
+      <image src="{{img}}" class="demartmentlogo"></image>
+      <view class="center-text">
+        <text>你今天还没有下单</text>
+        <text>快去选择一杯喜欢的茶吧</text>
+      </view>
+      <button bindtap="goCom">去点单</button>
+    </view>
+    <view hidden='{{currentTabIndex != 1}}' class="his_content">
+          <view class="wrapper-item">
+             <view class="item-row">
+                <text>深圳创维半导体GO店</text><text>已完成</text>
+             </view>
+             <view class="item-image-row">
+               <image src="{{itemImage}}"></image>
+               <image src="{{itemImage}}"></image>
+             </view>
+             <view class="item-row">
+                <text>订单编号： 2322232351162326515</text>
+             </view>
+             <view class="item-row">
+                <text>下单时间： 2018-12-30 10：15：20</text>
+                <text>￥20</text>
+             </view>
+             <view class="item-button-row">
+               <text class="rate btn">查看评价</text>
+               <text class="book btn">再来一单</text>
+             </view>
+          </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,100 @@
+/* pages/order/order.wxss */
+#tabs{
+  font-size: 28rpx;
+}
+.tabs-box{
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+    height: 80rpx;
+    line-height: 80rpx;
+    text-align: center;
+    background: #fff;
+    padding: 0 80px;
+}
+.tabs-item.selected {
+    color:#515151;
+    border-bottom:2px solid #515151;
+}
+.tabs-item {
+    width: 33.3%;
+    color:#8a8a8a;
+    border-bottom:2px solid transparent;
+}
+.cur_content{
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+ .cur_content image{
+  width: 150px;
+  height: 100px;
+  margin-bottom: 35px;
+}
+.center-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 35px;
+  color: #a3a3a3;
+  font-size: 14px;
+}
+.cur_content button {
+  width: 150px;
+  font-size: 16px;
+  background: #deaa6e;
+  color: #fff;
+}
+
+/* 下面为历史订单样式 */
+.his_content{
+  background: #f6f6f6;
+}
+.wrapper-item{
+  background: #fff;
+  padding: 15px 20px;
+  margin-top: 20px;
+  color: #585858;
+}
+.item-row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.item-image-row {
+  display: flex;
+  align-items: center;
+  padding: 5px 0;
+}
+.item-image-row image{
+  width: 30px;
+  height: 50px;
+  margin-right: 10px;
+  
+}
+.item-button-row{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 5px 0;
+}
+
+.item-button-row .btn{
+  color: #6f6f6f;
+  font-size: 14px;
+  width: 80px;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.item-button-row .book{
+  margin-left: 10px;
+  border-color: #deaa6e;
+  color: #deaa6e;
+}

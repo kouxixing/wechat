@@ -1,0 +1,7 @@
+<!--pages/department/department.wxml-->
+<view class="department">
+  <view class="content">
+    <image src="{{img}}" class="demartmentlogo"></image>
+    <button bindtap="goCom">前往喜茶百货</button>
+  </view>
+</view>

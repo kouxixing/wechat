@@ -1,20 +1,21 @@
-// pages/home/home.js
+// pages/department/department.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    img: "../../images/logo_order.jpeg",
   },
-
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
 
   },
-
+  goCom: function(){
+    console.log(0)
+  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
